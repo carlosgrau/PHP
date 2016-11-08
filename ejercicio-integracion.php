@@ -7,7 +7,7 @@
  */
 
 $archivo = fopen("datoscliente.txt", "a");
-fwrite($archivo,$nif "," . PHP_EOL);
+fwrite($archivo ,  $nif "," . PHP_EOL);
 fwrite($archivo,$nombre "," . PHP_EOL);
 fwrite($archivo, apellido1 "," . PHP_EOL);
 fwrite($archivo, "apellido2" . PHP_EOL);

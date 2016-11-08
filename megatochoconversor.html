@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="conversor.php" method="POST">
+             
+                Introduce un valor: <input type="text" name="cifra" ><br></br>
+                <label> Selecciona tu moneda:           
+        <select name="lista_actual">            
+             
+            <option value="dolar">Dolar</option> 
+            <option value="euro">Euro</option> 
+            <option value="libra">Libra</option> 
+            <option value="rupia">Rupia</option> 
+             
+        </select> 
+        </label> </br> 
+         
+        <label> Selecciona la moneda que requieres: 
+     
+    <select name="lista_despues">              
+             
+            <option value="dolar1">Dolar</option> 
+            <option value="euro1">Euro</option> 
+            <option value="libra1">Libra</option> 
+            <option value="rupia1">Rupia</option> 
+             
+        </select> 
+        </label> </br> </br>
+        <input type="submit" value="Convertir" >
+            </form>
+        </div>
+    </body>
+</html>

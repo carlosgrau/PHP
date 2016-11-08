@@ -9,10 +9,11 @@
 $numero=$_POST[ 'numero' ];
         $decimal=0;
         $valorposicion=1;
-    for($i=  strlen($numero)-1;$i>=0; $i--){
+    for($i=strlen($numero)-1;$i>=0; $i--){
         
         $decimal =$decimal + $valorposicion * $numero[ $i ];
         $valorposicion=$valorposicion*2;
-        
+        echo "EL proceso es $decimal + $valorposicion * $numero[$i]";
     }
+    
     echo "$decimal";
